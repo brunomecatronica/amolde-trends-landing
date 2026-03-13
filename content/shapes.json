@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Top Bralette",
+        "description": "Leveza e naturalidade que abraçam a anatomia feminina, descartando aros ou bojos rígidos.",
+        "vantagens": "Conforto total, ideal para transição dia/noite e uso como outerwear.",
+        "insight": "O ajuste das alças e a medida da base elástica precisam de precisão milimétrica para suporte sem arco.",
+        "image": "assets/images/shape_bralette.png"
+    },
+    {
+        "name": "Sutiã Sem Aro",
+        "description": "O novo essencial. Oferece a beleza do busto modelado através de cortes inteligentes e tecidos macios.",
+        "vantagens": "Suporte natural com aspecto premium e extremo conforto.",
+        "insight": "O recorte diagonal é o elemento que proporciona profundidade ao bojo, enquanto a estruturação da base garante a sustentação necessária para um bom suporte e conforto, equilibrando a modelagem mesmo sem a presença do arco.",
+        "image": "assets/images/shape_sutia_sem_aro.png"
+    },
+    {
+        "name": "Cintura Alta",
+        "description": "Calça alta com estética retrô e escultural que abraça as curvas, proporcionando segurança e uma silhueta contínua.",
+        "vantagens": "Modelagem que afina a cintura, alonga a silhueta e agrada diversas gerações.",
+        "insight": "Segredos para uma boa vestibilidade: evite excessos na altura, que podem causar dobras; assegure que o entrepernas esteja no posicionamento correto e com largura adequada. As laterais também podem ser ajustadas para larguras médias, proporcionando conforto e um caimento que valoriza diferentes preferências de estilo.",
+        "image": "assets/images/shape_cintura_alta_v3.png"
+    },
+    {
+        "name": "Fio Duplo",
+        "description": "Sensualidade na proporção perfeita. O acabamento inteligente em fio duplo não marca e eleva a silhueta.",
+        "vantagens": "Invisibilidade sob a roupa, aliando conforto extremo a uma estética elegante.",
+        "insight": "Para um caimento perfeito e confortável, a altura e a largura do traseiro fazem toda a diferença. Outro ponto importante dessa modelagem está no equilíbrio das proporções da frente, garantindo conforto e permitindo que a peça seja usada facilmente no dia a dia.",
+        "image": "assets/images/shape_fio_duplo.png"
+    },
+    {
+        "name": "Body Lingerie",
+        "description": "O shape mais versátil da moda íntima contemporânea — funciona como lingerie, outerwear e base de looks sofisticados. Transita perfeitamente do dia sob a roupa ao look impactante da noite.",
+        "vantagens": "Versatilidade como outerwear e apelo de design superior.",
+        "insight": "A compensação de elasticidade vertical é vital para o conforto entre o gancho e os ombros.",
+        "image": "assets/images/shape_body_lingerie.png"
+    },
+    {
+        "name": "Top Lingerie",
+        "description": "A evolução utilitária do bralette. Seu decote horizontal permite sobreposições fáceis.",
+        "vantagens": "Estética clean e esportiva, adaptando-se perfeitamente aos looks do dia a dia.",
+        "insight": "A limpeza visual do viés e modelagem dupla evitam marcações sob camisetas justas.",
+        "image": "assets/images/shape_top_lingerie.png"
+    },
+    {
+        "name": "Top Triângulo",
+        "description": "Shape de sutiã sem bojo, sem aro e sem estrutura rígida, com copas em formato triangular. O ícone do minimalismo na moda íntima.",
+        "vantagens": "Máximo conforto, visual clean e moderno, com grande versatilidade como outerwear.",
+        "insight": "A proporção do triângulo (base x altura) é crucial. Muito largo perde forma; muito estreito não oferece a cobertura ideal.",
+        "image": "assets/images/shape_top_triangulo.png"
+    },
+    {
+        "name": "Sutiã Meia Taça",
+        "description": "O sutiã meia taça cobre aproximadamente a metade da mama, criando um decote elegante e valorizado. Oferece sustentação clássica e sofisticada.",
+        "vantagens": "Valoriza o decote, oferece estruturação sólida com arco e conta com alto valor percebido de design.",
+        "insight": "O corte da meia taça define o ponto exato de transição entre a copa e o decote. A precisão milimétrica dessa curva defina a sustentação.",
+        "image": "assets/images/shape_meia_taca.png"
+    }
+]

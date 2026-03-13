@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Renda",
+        "description": "Menos óbvia. A renda de 2027 abraça gráficos contemporâneos, geometria floral sutil e texturas opulentas.",
+        "advantages": "Sofisticação instantânea, textura e jogo de esconde-mostra.",
+        "use": "Sutiãs tipo meia-taça e calcinhas hot pants requintadas.",
+        "image": "assets/images/material_renda_romantica.png"
+    },
+    {
+        "name": "Microfibra",
+        "description": "O tecido da segunda pele. Sedoso, quase imperceptível, com elasticidade equilibrada em quatro direções.",
+        "advantages": "Conforto sensorial imediato, não marca sob tecidos leves.",
+        "use": "Peças clean e cortadas a laser, ou tops confortáveis.",
+        "image": "assets/images/material_microfibra_soft.png"
+    },
+    {
+        "name": "Algodão",
+        "description": "O toque humano e sustentável. Uma resposta à hipertecnologia com um apelo botânico e causal.",
+        "advantages": "Respirável, hipoalergênico e ideal para longas jornadas.",
+        "use": "Calcinhas utilitárias dia a dia e sutiãs triângulo macios.",
+        "image": "assets/images/material_algodao_natural.png"
+    },
+    {
+        "name": "Tule",
+        "description": "Transparência inteligente. Um jogo visual provocante sem perder o conforto para uso cotidiano.",
+        "advantages": "Peso pluma, flexibilidade visual e contornos desenhados.",
+        "use": "Para complementar shapes estruturados e criar efeitos na pele.",
+        "image": "assets/images/material_tule_minimalista.png"
+    },
+    {
+        "name": "Tecidos Tecnológicos",
+        "description": "Sustentação estruturada focada completamente na redução do impacto do suor e compressão exagerada.",
+        "advantages": "Controle térmico, durabilidade longa e suporte 3D anatômico.",
+        "use": "Sutiãs que substituem o aro sem comprometer.",
+        "image": "assets/images/material_tecnico.png"
+    }
+]

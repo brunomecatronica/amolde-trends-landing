@@ -1,0 +1,43 @@
+[
+    {
+        "id": "nova-lingerie",
+        "title": "A Nova Lingerie",
+        "description": "Uma mudança profunda no comportamento da consumidora transforma a lingerie, que antes habitava apenas o espaço íntimo, em uma peça de moda, muitas vezes como protagonista do look. O conforto encontra a sofisticação na medida exata, elevando o bem-estar ao status de luxo absoluto para o Verão 2027."
+    },
+    {
+        "id": "conforto-luxuria",
+        "title": "1. Conforto como Nova Luxúria",
+        "description": "O conforto deixou de ser apenas funcional para se tornar um valor aspiracional. A consumidora busca shapes sem arco, elásticos macios e modelagem inteligente que a façam sentir-se bem o dia todo sem sacrificar o corpo.",
+        "image": "assets/images/trend_conforto_luxuria.png"
+    },
+    {
+        "id": "lingerie-outerwear",
+        "title": "2. Lingerie como Outerwear",
+        "description": "A lingerie expande seu território e passa a atuar como protagonista na moda. Sutiãs rendados usados sob blazers e bodies utilitários são desenvolvidos com acabamentos estratégicos e tecidos selecionados, pensados especialmente para ficarem à mostra.",
+        "image": "assets/images/trend_lingerie_outerwear.png"
+    },
+    {
+        "id": "sustentabilidade-consciente",
+        "title": "3. Sustentabilidade Consciente",
+        "description": "A responsabilidade ambiental na moda íntima se traduz não só em materiais reciclados e sustentáveis, mas também através da precisão dos moldes, com encaixes planejados para minimizar drasticamente o desperdício de tecido.",
+        "image": "assets/images/trend_sustentabilidade.png"
+    },
+    {
+        "id": "inclusividade-corpos",
+        "title": "4. Inclusividade de Corpos",
+        "description": "A grade estendida tornou-se um requisito básico do mercado. A modelagem necessita de um trabalho ergonômico apurado, respeitando as proporções de cada numeração e valorizando a diversidade sem adaptações genéricas.",
+        "image": "assets/images/trend_inclusividade.png"
+    },
+    {
+        "id": "minimalismo-sofisticado",
+        "title": "5. Minimalismo Sofisticado",
+        "description": "Linhas puras e modelagens limpas definem essa direção estética. As peças apresentam menos recortes e costuras aparentes, valorizando a forma do corpo e a precisão da modelagem. Essa macro tendência aposta em cores neutras, como Off White e Clay, com atenção especial ao acabamento e uma estética clean que transmite elegância e modernidade.",
+        "image": "assets/images/trend_minimalismo.png"
+    },
+    {
+        "id": "maximalismo-expressivo",
+        "title": "6. Maximalismo Expressivo",
+        "description": "Como força complementar, o maximalismo surge ousado com rendas elaboradas, ricas texturas bordadas, mix de materiais transparentes e cores vibrantes, atendendo ao desejo profundo de expressão festiva e sensual da consumidora.",
+        "image": "assets/images/trend_maximalismo.png"
+    }
+]
