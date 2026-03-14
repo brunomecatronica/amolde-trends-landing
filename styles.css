@@ -650,8 +650,8 @@ section {
 
 /* FOOTER */
 .editorial-footer {
-    background-color: var(--color-off-white);
-    color: var(--color-preto);
+    background-color: #ffffff !important;
+    color: #333333 !important;
     padding: 80px 0;
     text-align: center;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
