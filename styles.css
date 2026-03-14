@@ -650,54 +650,35 @@ section {
 
 /* FOOTER */
 .editorial-footer {
-    background-color: var(--color-preto);
-    color: #fff;
-    padding: 60px 0;
+    background-color: var(--color-off-white);
+    color: var(--color-preto);
+    padding: 80px 0;
     text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.footer-logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+.footer-contact {
     margin-bottom: 30px;
+    font-size: 1.1rem;
 }
 
-.footer-logo .logo-icon {
-    height: 50px;
-    opacity: 1;
-}
-
-.footer-logo .logo-text {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.footer-logo .logo-top {
+.whatsapp-link {
+    color: var(--color-luminous-blue);
+    text-decoration: none;
+    font-weight: 600;
     font-family: var(--font-heading);
-    font-size: 2.2rem;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: var(--color-nude);
-    font-weight: 700;
-    margin-bottom: 5px;
+    font-size: 1.4rem;
+    display: block;
+    margin-top: 10px;
 }
 
-.footer-logo .logo-bottom {
-    font-family: var(--font-body);
-    font-size: 0.9rem;
-    letter-spacing: 6px;
-    color: #888;
-    font-weight: 400;
-    text-transform: uppercase;
+.whatsapp-link:hover {
+    text-decoration: underline;
 }
 
 .editorial-footer p {
     font-size: 0.85rem;
-    color: #888;
+    color: #999;
 }
 
 /* ANIMATIONS (REMOVED FOR NORMAL SCROLL) */
@@ -1113,22 +1094,15 @@ section {
 
     /* --- FOOTER --- */
     .editorial-footer {
-        padding: 30px 0;
+        padding: 60px 20px;
     }
 
-    .footer-logo .logo-top {
+    .whatsapp-link {
         font-size: 1.2rem;
-        letter-spacing: 2px;
-    }
-
-    .footer-logo .logo-bottom {
-        font-size: 0.6rem;
-        letter-spacing: 2px;
     }
 
     .editorial-footer p {
-        font-size: 0.7rem;
-        padding: 0 16px;
+        font-size: 0.75rem;
     }
 }
 
