@@ -826,7 +826,7 @@ section {
     }
 
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 1.15rem;
         line-height: 1.6;
         margin-bottom: 24px;
         max-width: 100%;
@@ -863,7 +863,7 @@ section {
     }
 
     .section-desc {
-        font-size: 1rem;
+        font-size: 1.15rem;
         line-height: 1.6;
     }
 
@@ -883,7 +883,7 @@ section {
     }
 
     .lead-desc {
-        font-size: 1.05rem;
+        font-size: 1.2rem;
         line-height: 1.6;
     }
 
@@ -915,7 +915,7 @@ section {
     }
 
     .trend-desc {
-        font-size: 1rem;
+        font-size: 1.15rem;
         line-height: 1.6;
     }
 
@@ -949,7 +949,7 @@ section {
     }
 
     .shape-desc {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .shape-meta {
@@ -963,7 +963,7 @@ section {
     }
 
     .meta-text {
-        font-size: 0.95rem;
+        font-size: 1.05rem;
     }
 
     /* --- SEC 3: CORES / PALETAS --- */
@@ -1039,7 +1039,7 @@ section {
     }
 
     .material-desc {
-        font-size: 1rem;
+        font-size: 1.15rem;
         line-height: 1.6;
         margin-bottom: 12px;
     }
@@ -1066,7 +1066,7 @@ section {
     }
 
     .diagram-box p {
-        font-size: 1rem;
+        font-size: 1.15rem;
         line-height: 1.6;
     }
 
@@ -1082,7 +1082,7 @@ section {
     }
 
     .timeline li {
-        font-size: 1rem;
+        font-size: 1.15rem;
         line-height: 1.6;
         margin-bottom: 20px;
         padding-left: 20px;
@@ -1093,7 +1093,7 @@ section {
     }
 
     .brand-text {
-        font-size: 1rem;
+        font-size: 1.15rem;
         line-height: 1.6;
         padding-left: 16px;
     }
@@ -1108,7 +1108,7 @@ section {
     }
 
     .cta-desc {
-        font-size: 1rem;
+        font-size: 1.15rem;
         line-height: 1.6;
         margin-bottom: 24px;
     }
