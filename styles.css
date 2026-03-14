@@ -711,14 +711,22 @@ section {
     transform: translateY(0);
 }
 
-/* RESPONSIVE */
+/* ============================================= */
+/* RESPONSIVE — TABLET (max-width: 1024px)       */
+/* ============================================= */
 @media (max-width: 1024px) {
     .hero-title {
         font-size: 4rem;
     }
 
+    .section-title {
+        font-size: 2.4rem;
+        margin-bottom: 36px;
+    }
+
     .shapes-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 40px 30px;
     }
 
     .split-layout {
@@ -739,55 +747,458 @@ section {
 
     .palette-title {
         flex: 0;
+        font-size: 1.5rem;
     }
 
     .swatches {
         width: 100%;
     }
+
+    .editorial-grid {
+        gap: 40px 30px;
+    }
 }
 
+/* ============================================= */
+/* RESPONSIVE — MOBILE (max-width: 768px)        */
+/* ============================================= */
 @media (max-width: 768px) {
+
+    /* --- HEADER / NAV --- */
     .editorial-nav {
-        padding: 20px 30px;
-        flex-direction: column;
-        gap: 20px;
+        padding: 16px 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        position: fixed;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     }
 
+    .logo-top {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+
+    .logo-bottom {
+        font-size: 0.55rem;
+        letter-spacing: 2px;
+    }
+
+    .editorial-nav .btn-outline {
+        padding: 10px 18px;
+        font-size: 0.6rem;
+        letter-spacing: 1px;
+    }
+
+    /* --- HERO --- */
     .hero {
         height: auto;
+        flex-direction: column;
     }
 
     .hero-content {
-        padding: 120px 30px 60px;
+        padding: 100px 24px 50px;
         min-width: 100%;
+        order: 1;
     }
 
     .hero-image-wrapper {
-        height: 50vh;
+        height: 55vh;
         min-width: 100%;
+        order: 2;
     }
 
     .hero-title {
-        font-size: 3rem;
+        font-size: 2.8rem;
+        margin-bottom: 20px;
     }
 
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .btn-solid,
+    .btn-outline {
+        padding: 14px 28px;
+        font-size: 0.7rem;
+        letter-spacing: 1.5px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* --- GENERAL SECTIONS --- */
+    section {
+        padding: 64px 0;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .section-label {
+        font-size: 0.7rem;
+        letter-spacing: 1.5px;
+        margin-bottom: 14px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .section-desc {
+        font-size: 1rem;
+    }
+
+    /* --- SEC 1: TENDÊNCIAS (A Nova Lingerie) --- */
+    .section-trends {
+        padding: 80px 0;
+    }
+
+    .editorial-lead {
+        margin-bottom: 50px;
+        padding-bottom: 16px;
+    }
+
+    .lead-title {
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+    }
+
+    .lead-desc {
+        font-size: 1.15rem;
+        line-height: 1.7;
+    }
+
+    /* Grid de tendências: 1 coluna, cada card ocupa tela inteira */
+    .editorial-grid {
+        grid-template-columns: 1fr;
+        gap: 40px 0;
+    }
+
+    .editorial-trend {
+        padding-top: 16px;
+    }
+
+    .trend-img-wrap {
+        aspect-ratio: 16/10;
+        margin-bottom: 20px;
+        margin-left: -20px;
+        margin-right: -20px;
+        width: calc(100% + 40px);
+        border-radius: 0;
+    }
+
+    .trend-title {
+        font-size: 0.8rem;
+        margin-bottom: 14px;
+    }
+
+    .trend-desc {
+        font-size: 1.05rem;
+        line-height: 1.65;
+    }
+
+    /* --- SEC 2: SHAPES --- */
     .shapes-grid {
         grid-template-columns: 1fr;
+        gap: 48px;
     }
 
+    .shape-card {
+        max-width: 100%;
+    }
+
+    .shape-card:hover {
+        transform: none;
+    }
+
+    .shape-img-wrap {
+        aspect-ratio: 3/4;
+        margin-left: -20px;
+        margin-right: -20px;
+        width: calc(100% + 40px);
+    }
+
+    .shape-name {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    .shape-desc {
+        font-size: 0.9rem;
+    }
+
+    .shape-meta {
+        margin-top: 18px;
+        padding-top: 18px;
+    }
+
+    .meta-label {
+        font-size: 0.6rem;
+    }
+
+    .meta-text {
+        font-size: 0.82rem;
+    }
+
+    /* --- SEC 3: CORES / PALETAS --- */
+    .section-colors {
+        padding-bottom: 80px;
+    }
+
+    .palettes-wrapper {
+        gap: 50px;
+    }
+
+    .palette-group {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .palette-title {
+        flex: none;
+        font-size: 1.3rem;
+    }
+
+    .swatches {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .swatch {
+        min-width: 48%;
+        height: 100px;
+        padding: 14px;
+    }
+
+    .swatch:hover {
+        flex: 1;
+    }
+
+    .swatch span {
+        font-size: 0.72rem;
+    }
+
+    /* --- SEC 4: MATERIAIS --- */
+    .split-layout {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .split-text {
+        position: relative;
+        top: 0;
+        margin-bottom: 0;
+    }
+
+    .split-list {
+        gap: 40px;
+    }
+
+    .material-item h3 {
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+    }
+
+    .material-img-wrap {
+        aspect-ratio: 16/10;
+        margin-left: -20px;
+        margin-right: -20px;
+        width: calc(100% + 40px);
+    }
+
+    .material-desc {
+        font-size: 1rem;
+        margin-bottom: 12px;
+    }
+
+    .material-meta {
+        font-size: 0.85rem;
+        padding: 14px;
+    }
+
+    /* --- SEC 5: MODELAGEM --- */
     .modeling-diagram {
         flex-direction: column;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .diagram-box {
+        padding: 28px;
+    }
+
+    .diagram-box h3 {
+        font-size: 1.5rem;
+        margin-bottom: 14px;
+    }
+
+    .diagram-box p {
+        font-size: 0.95rem;
+    }
+
+    /* --- SEC 6/7: MÉTODO --- */
+    .split-layout.alternate {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .subsection-title {
+        font-size: 1.6rem;
+        margin-bottom: 28px;
+    }
+
+    .timeline li {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        padding-left: 26px;
+    }
+
+    .timeline strong {
+        font-size: 1.2rem;
+    }
+
+    .brand-text {
+        font-size: 1.05rem;
+        line-height: 1.7;
+        padding-left: 24px;
+    }
+
+    /* --- SEC 8: CTA --- */
+    .section-cta {
+        padding: 80px 0;
+    }
+
+    .cta-box {
+        max-width: 100%;
+    }
+
+    .cta-desc {
+        font-size: 1.05rem;
+        margin-bottom: 36px;
     }
 
     .cta-buttons {
         flex-direction: column;
+        gap: 14px;
     }
 
-    section {
-        padding: 80px 0;
+    .cta-buttons .btn-solid,
+    .cta-buttons .btn-outline {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* --- FOOTER --- */
+    .editorial-footer {
+        padding: 40px 0;
+    }
+
+    .footer-logo .logo-top {
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+    }
+
+    .footer-logo .logo-bottom {
+        font-size: 0.7rem;
+        letter-spacing: 3px;
+    }
+
+    .editorial-footer p {
+        font-size: 0.78rem;
+        padding: 0 20px;
+    }
+}
+
+/* ============================================= */
+/* RESPONSIVE — SMALL MOBILE (max-width: 480px)  */
+/* ============================================= */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.92rem;
+    }
+
+    .hero-content {
+        padding: 90px 18px 40px;
     }
 
     .container {
-        padding: 0 24px;
+        padding: 0 16px;
+    }
+
+    .section-title {
+        font-size: 1.7rem;
+        margin-bottom: 24px;
+    }
+
+    .lead-title {
+        font-size: 1.8rem;
+    }
+
+    .lead-desc {
+        font-size: 1.05rem;
+    }
+
+    /* Imagens das tendências: full bleed */
+    .trend-img-wrap {
+        margin-left: -16px;
+        margin-right: -16px;
+        width: calc(100% + 32px);
+    }
+
+    .shape-img-wrap {
+        margin-left: -16px;
+        margin-right: -16px;
+        width: calc(100% + 32px);
+    }
+
+    .material-img-wrap {
+        margin-left: -16px;
+        margin-right: -16px;
+        width: calc(100% + 32px);
+    }
+
+    .swatch {
+        min-width: 47%;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .swatch span {
+        font-size: 0.65rem;
+    }
+
+    .diagram-box {
+        padding: 20px;
+    }
+
+    .diagram-box h3 {
+        font-size: 1.3rem;
+    }
+
+    .brand-text {
+        font-size: 0.95rem;
+        padding-left: 18px;
+    }
+
+    .cta-desc {
+        font-size: 0.95rem;
+    }
+
+    .footer-logo .logo-top {
+        font-size: 1.1rem;
     }
 }
