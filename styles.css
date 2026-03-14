@@ -382,8 +382,9 @@ section {
 }
 
 .shape-desc {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     color: #666;
+    line-height: 1.6;
     margin-bottom: 16px;
 }
 
@@ -415,7 +416,7 @@ section {
 }
 
 .meta-text {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: #555;
     line-height: 1.6;
     font-weight: 400;
@@ -939,7 +940,7 @@ section {
     }
 
     .shape-desc {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .shape-meta {
@@ -953,7 +954,7 @@ section {
     }
 
     .meta-text {
-        font-size: 0.8rem;
+        font-size: 0.95rem;
     }
 
     /* --- SEC 3: CORES / PALETAS --- */
