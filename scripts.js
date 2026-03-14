@@ -17,27 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- 2. INTERSECTION OBSERVER (Fade in On Scroll) ---
-    const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.15
-    };
-
-    const fadeObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, observerOptions);
-
-    // Apply fade-in class to major sections right after load
-    document.querySelectorAll('section').forEach(sec => {
-        sec.classList.add('fade-in');
-        fadeObserver.observe(sec);
-    });
+    // Fade-in effect removed by user request (Scroll Normal)
 
     // --- 3. FETCH E RENDERIZAÇÃO DE CONTEÚDO DINÂMICO ---
 

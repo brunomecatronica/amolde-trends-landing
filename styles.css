@@ -699,18 +699,7 @@ section {
     color: #888;
 }
 
-/* ANIMATIONS */
-.fade-in {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 1s ease, transform 1s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
+/* ANIMATIONS (REMOVED FOR NORMAL SCROLL) */
 /* ============================================= */
 /* RESPONSIVE — TABLET (max-width: 1024px)       */
 /* ============================================= */
@@ -848,7 +837,7 @@ section {
 
     /* --- GENERAL SECTIONS --- */
     section {
-        padding: 40px 0;
+        padding: 30px 0;
     }
 
     .container {
@@ -872,7 +861,7 @@ section {
 
     /* --- SEC 1: TENDÊNCIAS (A Nova Lingerie) --- */
     .section-trends {
-        padding: 50px 0;
+        padding: 40px 0 20px 0;
     }
 
     .editorial-lead {
@@ -894,7 +883,7 @@ section {
     .editorial-grid {
         display: flex;
         flex-direction: column;
-        gap: 40px;    
+        gap: 20px;    
     }
 
     .editorial-trend {
@@ -926,7 +915,7 @@ section {
     .shapes-grid {
         display: flex;
         flex-direction: column;
-        gap: 40px;    
+        gap: 30px;    
     }
 
     .shape-card {
