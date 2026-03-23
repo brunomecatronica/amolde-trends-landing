@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Essenciais e Neutros",
+    "colors": [
+      { "name": "Off White", "value": "var(--color-off-white)", "textLight": false },
+      { "name": "Clay", "value": "var(--color-clay)", "textLight": true },
+      { "name": "Areia", "value": "var(--color-areia)", "textLight": false },
+      { "name": "Preto", "value": "var(--color-preto)", "textLight": true }
+    ]
+  },
+  {
+    "title": "Cores-Chave 2027",
+    "colors": [
+      { "name": "Luminous Blue", "value": "var(--color-luminous-blue)", "textLight": true },
+      { "name": "Energy Orange", "value": "var(--color-energy-orange)", "textLight": true },
+      { "name": "Pop Pink", "value": "var(--color-pop-pink)", "textLight": true },
+      { "name": "Meadowland Green", "value": "var(--color-meadowland)", "textLight": true }
+    ]
+  },
+  {
+    "title": "Paleta Harmônica",
+    "colors": [
+      { "name": "Terracota", "value": "var(--color-terracota)", "textLight": false },
+      { "name": "Rosé Natural", "value": "var(--color-rose)", "textLight": false },
+      { "name": "Vermelho Intenso", "value": "var(--color-vermelho)", "textLight": true },
+      { "name": "Nude", "value": "var(--color-nude)", "textLight": false }
+    ]
+  }
+]

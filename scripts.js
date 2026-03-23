@@ -122,4 +122,33 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(err => console.error('Erro ao carregar materiais:', err));
 
+    // 3.4 Paletas
+    fetch('content/paletas.json')
+        .then(res => res.json())
+        .then(data => {
+            const container = document.getElementById('palettes-container');
+            let html = '';
+            data.forEach(group => {
+                html += `
+                    <div class="palette-group">
+                        <h3 class="palette-title">${group.title}</h3>
+                        <div class="swatches">
+                `;
+                group.colors.forEach(color => {
+                    const textColor = color.textLight ? '#fff' : 'inherit';
+                    html += `
+                        <div class="swatch" style="background-color: ${color.value}; color: ${textColor};">
+                            <span>${color.name}</span>
+                        </div>
+                    `;
+                });
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+            container.innerHTML = html;
+        })
+        .catch(err => console.error('Erro ao carregar paletas:', err));
+
 });
